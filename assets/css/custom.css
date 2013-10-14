@@ -1,0 +1,8 @@
+/* This is where you write your custom CSS styles! You may edit from the main.css or simply add it in here and it will overwrite the styles. */
+.hero_content h1 {
+	font-size: 60px;
+}
+
+.hero_content h1 b {
+	font-size: 61px;
+}
