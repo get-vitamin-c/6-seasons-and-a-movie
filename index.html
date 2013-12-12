@@ -19,6 +19,13 @@
 		<!--[if IE 7]><link rel="stylesheet" href="assets/css/fontello-ie7.css"><![endif]-->
 		<!-- FancyBox Stylesheet -->
 		<link rel="stylesheet" href="assets/css/jquery.fancybox.css?v=2.1.5">
+		<!-- jQuery UI -->
+		<link rel="stylesheet" href="assets/css/plugins/jquery-ui/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="assets/css/plugins/jquery-ui/smoothness/jquery.ui.theme.css">
+		<!-- dataTables -->
+		<link rel="stylesheet" href="assets/css/plugins/datatable/TableTools.css">
+		<!-- chosen -->
+		<link rel="stylesheet" href="assets/css/plugins/chosen/chosen.css">
 		<!-- Custom Stylesheet -->
 		<link rel="stylesheet" href="assets/css/custom.css">
 		<!-- Google Webfonts -->
@@ -81,50 +88,346 @@
 		<div id="tour">
 			<!-- Introduction Section -->
 			<div id="introduction">
-				<div class="container">
-					<div class="span12 fadeIn">
-						<!-- Introduction Heading -->
-						<div class="page_heading">
-							<h6>Introducing</h6>
-							<h1>Perfect Landing Page, Maverick</h1>
-						</div>
-						<div id="intro_back">
-							<div class="row">
-								<div class="span4">
-									<!-- Introduction Class One -->
-									<div class="intro_text text_one">
-										<h3>Clean Navigation</h3>
-										<p>Maecenas pulvinar tincidunt quam, ac consequat odio semper eget. Aliquam vulputate justo ut nunc ullamcorper, non pellentesque lectus consequat.</p>
-									</div>
-									<!-- Introduction Class Two -->
-									<div class="intro_text text_two">
-										<h3>Seductive Button!</h3>
-										<p>Maecenas pulvinar tincidunt quam, ac consequat odio semper eget. Aliquam vulputate justo ut nunc ullamcorper, non pellentesque lectus consequat.</p>
-									</div>
-								</div>
-								<div class="span4">
-									<!-- Introduction Phone Preview -->
-									<div class="phone-small black-sm">
-											<img class="phone-preview" src="assets/img/slides/feature.jpg" width="245" height="427" alt="" />
-									</div>
-								</div>
-								<div class="span4">
-									<!-- Introduction Class Three -->
-									<div class="intro_text text_three">
-										<h3>Elegant Cover Design</h3>
-										<p>Maecenas pulvinar tincidunt quam, ac consequat odio semper eget. Aliquam vulputate justo ut nunc ullamcorper, non pellentesque lectus consequat.</p>
-									</div>
-								</div>
+				<div class="row-fluid">
+					<div class="span12">
+						<div class="box box-color box-bordered">
+							<div class="box-title">
+								<h3>
+									Advanced filtering
+								</h3>
 							</div>
-							<!-- Introduction BG Effect and images -->
-							<div id="cloud_btm">
-								<div id="small_cloud_btm"></div>
-								<div id="big_cloud_btm"></div>
+							<div class="box-content nopadding">
+								<table class="table table-hover table-nomargin table-bordered usertable">
+									<thead>
+										<tr class='thefilter'>
+											<th class='with-checkbox'></th>
+											<th>Username</th>
+											<th>Email</th>
+											<th class='hidden-350'>Status</th>
+											<th class='hidden-1024'>Member since</th>
+											<th class='hidden-480'>Options</th>
+										</tr>
+										<tr>
+											<th class='with-checkbox'><input type="checkbox" name="check_all" id="check_all"></th>
+											<th>Username</th>
+											<th>Email</th>
+											<th class='hidden-350'>Status</th>
+											<th class='hidden-1024'>Member since</th>
+											<th class='hidden-480'>Options</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>John Doe</td>
+											<td>john.doe@johndoe.com</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>03-07-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Jane Doe</td>
+											<td>jane.doe@johndoe.com</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>02-07-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Max Mustermann</td>
+											<td>max.mustermann@maxmustermann.com</td>
+											<td class='hidden-350'><span class="label label-lightred">Inactive</span></td>
+											<td class='hidden-1024'>01-07-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Mary P. Hendrix</td>
+											<td>mary.p@maryhendrix.com</td>
+											<td class='hidden-350'><span class="label">Disabled</span></td>
+											<td class='hidden-1024'>30-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>John J. Rodriquez</td>
+											<td>mary.p@maryhendrix.com</td>
+											<td class='hidden-350'><span class="label">Disabled</span></td>
+											<td class='hidden-1024'>30-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Rochelle J. Worsham</td>
+											<td>RochelleJWorsham@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>28-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Scott J. Fountain</td>
+											<td>ScottJFountain@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>27-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Rita J. Lima</td>
+											<td>RitaJLima@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>26-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Beth B. Tabb</td>
+											<td>BethBTabb@einrot.com</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>26-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Grace J. McClelland</td>
+											<td>GraceJMcClelland@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>24-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Michael J. Puente</td>
+											<td>MichaelJPuente@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>23-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Jeffery B. Barnard</td>
+											<td>JefferyBBarnard@einrot.com</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>22-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Johanna R. Lewis</td>
+											<td>JohannaRLewis@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>21-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Rochelle J. Worsham</td>
+											<td>RochelleJWorsham@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>21-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Rudolph B. Beaty</td>
+											<td>RudolphBBeaty@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>21-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>John T. Medina</td>
+											<td>JohnTMedina@einrot.com</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>20-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Dwayne D. Bender</td>
+											<td>DwayneDBender@einrot.com</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>20-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Peter C. Thomas</td>
+											<td>PeterCThomas@einrot.com</td>
+											<td class='hidden-350'><span class="label">Disabled</span></td>
+											<td class='hidden-1024'>19-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Dolores R. Anderson</td>
+											<td>DoloresRAnderson@einrot.com</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>19-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Cathleen K. King</td>
+											<td>CathleenKKing@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>30-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Leslie M. Martinez</td>
+											<td>LeslieMMartinez@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-satgreen">Active</span></td>
+											<td class='hidden-1024'>18-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td class="with-checkbox">
+												<input type="checkbox" name="check" value="1">
+											</td>
+											<td>Rochelle J. Worsham</td>
+											<td>RochelleJWorsham@cuvox.de</td>
+											<td class='hidden-350'><span class="label label-lightred">Inactive</span></td>
+											<td class='hidden-1024'>16-06-2013</td>
+											<td class='hidden-480'>
+												<a href="#" class="btn" rel="tooltip" title="View"><i class="icon-search"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Edit"><i class="icon-edit"></i></a>
+												<a href="#" class="btn" rel="tooltip" title="Delete"><i class="icon-remove"></i></a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
-							<div id="small_cloud"></div>
-							<div id="big_cloud"></div>
-							<div id="plane_shadow"></div>
-							<div class="icon-flight"></div>
 						</div>
 					</div>
 				</div>
@@ -367,6 +670,30 @@
 		<script src="assets/js/jquery.inview.min.js"></script>
 		<script src="assets/js/tinynav.min.js"></script>
 		<script src="assets/js/jquery.fancybox-media.js"></script>
+		<!-- Nice Scroll -->
+		<script src="assets/js/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+		<!-- imagesLoaded -->
+		<script src="assets/js/plugins/imagesLoaded/jquery.imagesloaded.min.js"></script>
+		<!-- jQuery UI -->
+		<script src="assets/js/plugins/jquery-ui/jquery.ui.core.min.js"></script>
+		<script src="assets/js/plugins/jquery-ui/jquery.ui.widget.min.js"></script>
+		<script src="assets/js/plugins/jquery-ui/jquery.ui.mouse.min.js"></script>
+		<script src="assets/js/plugins/jquery-ui/jquery.ui.resizable.min.js"></script>
+		<script src="assets/js/plugins/jquery-ui/jquery.ui.sortable.min.js"></script>
+		<script src="assets/js/plugins/jquery-ui/jquery.ui.datepicker.min.js"></script>
+		<!-- slimScroll -->
+		<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+		<!-- Bootbox -->
+		<script src="assets/js/plugins/bootbox/jquery.bootbox.js"></script>
+		<!-- dataTables -->
+		<script src="assets/js/plugins/datatable/jquery.dataTables.min.js"></script>
+		<script src="assets/js/plugins/datatable/TableTools.min.js"></script>
+		<script src="assets/js/plugins/datatable/ColReorderWithResize.js"></script>
+		<script src="assets/js/plugins/datatable/ColVis.min.js"></script>
+		<script src="assets/js/plugins/datatable/jquery.dataTables.columnFilter.js"></script>
+		<script src="assets/js/plugins/datatable/jquery.dataTables.grouping.js"></script>
+		<!-- Chosen -->
+		<script src="assets/js/plugins/chosen/chosen.jquery.min.js"></script>
 		<!-- Maverick's Custom.js -->
 		<script src="assets/js/custom.js"></script>
 	</body>
