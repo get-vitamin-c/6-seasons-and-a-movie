@@ -1,2 +1,4 @@
-6-seasons-and-a-movie
+Landing page for Vitamin C
 =====================
+
+Based on the Maverick Theme from ThemeForest
