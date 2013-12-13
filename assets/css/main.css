@@ -358,7 +358,7 @@
 	
 	/* Hero Content Text */
 	.hero_content h1 {
-		margin: 100px 0 0 0;
+		margin: 3.5em 0 .75em 0;
 		font: 300 72px/72px "Lato";
 	}
 	
@@ -370,6 +370,9 @@
 	
 	.hero_content p {
 		font: 18px/30px "Lato";
+	}
+	.hero_content h3 b{
+		color: #eda307;
 	}
 	
 	/* Hero Phone */
