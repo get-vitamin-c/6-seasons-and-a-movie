@@ -8701,3 +8701,10 @@ a:focus {
 .basic-margin > li, .basic-margin > a {
   margin: 0 5px 5px 0;
 }
+
+#feature2{
+  padding: 90px 0;
+}
+#feature2 .thumbnail{
+  color: #5b5b5b;
+}
