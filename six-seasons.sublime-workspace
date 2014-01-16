@@ -1,0 +1,306 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"su",
+				"subject"
+			],
+			[
+				"normali",
+				"normalize_id"
+			],
+			[
+				"norma",
+				"normalize"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"relatio",
+				"relation_must_belong_to_sender"
+			],
+			[
+				"o",
+				"object"
+			],
+			[
+				"pos",
+				"positive"
+			],
+			[
+				"relation",
+				"relation_id"
+			],
+			[
+				"belo",
+				"belongs_to"
+			],
+			[
+				"actio",
+				"action"
+			],
+			[
+				"rece",
+				"receiver"
+			],
+			[
+				"action",
+				"action_to"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"recei",
+				"receiver"
+			],
+			[
+				"posit",
+				"positive"
+			],
+			[
+				"positi",
+				"positive_replied"
+			],
+			[
+				"sent",
+				"sent_or_received_by"
+			],
+			[
+				"lam",
+				"lambda"
+			],
+			[
+				"inver",
+				"inverse_id"
+			],
+			[
+				"rec",
+				"receiver"
+			],
+			[
+				"opt",
+				"options_for_contact_select"
+			],
+			[
+				"receiver",
+				"receiver_id"
+			],
+			[
+				"invers",
+				"inverse_contacts"
+			],
+			[
+				"not",
+				"not_reflexive"
+			],
+			[
+				"sender",
+				"sender_id"
+			],
+			[
+				"class",
+				"class_name"
+			],
+			[
+				"con",
+				"conversation"
+			],
+			[
+				"conver",
+				"conversation"
+			],
+			[
+				"get",
+				"get_mailbox"
+			],
+			[
+				"convers",
+				"conversations_path"
+			],
+			[
+				"las",
+				"last_receipt"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Sites/greendale-gazette-journal-mirror/_config/users/admin.yaml",
+		"/C/Sites/greendale-gazette-journal-mirror/_config/environments/dev.yaml",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/C/Users/Jordan/Dropbox/Drupal7/sites/all/themes/sonsafaris/page--node--14.tpl.php",
+		"/C/Users/Jordan/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Jordan/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Sites/el-tigre/config/initializers/devise.rb",
+		"/C/Sites/el-tigre/db/schema.rb",
+		"/C/Sites/el-tigre/db/migrate/20130829172625_create_mailboxer.mailboxer_engine.rb",
+		"/C/Sites/el-tigre/app/models/messaging_user.rb",
+		"/C/Sites/el-tigre/Gemfile",
+		"/C/Sites/el-tigre/app/models/user.rb",
+		"/C/Users/Jordan/AppData/Roaming/Sublime Text 2/Packages/SCSS/README.markdown",
+		"/C/Sites/el-tigre/app/assets/stylesheets/application.css.scss",
+		"/C/Sites/el-tigre/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
+		"/C/Users/Jordan/.gemrc",
+		"/C/Sites/el-tigre/.gitignore",
+		"/C/Sites/eltigre/bin/bundle",
+		"/C/Users/Jordan/Downloads/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Sites/eltigre/app/models/user.rb",
+		"/C/Sites/eltigre/app/models/ability.rb",
+		"/C/Sites/eltigre/app/models/role.rb",
+		"/C/Sites/eltigre/.gitignore",
+		"/C/Users/Jordan/Downloads/Sublime Text 2/Packages/Theme - Nil/README.md"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"normalize"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"find"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true
+}
