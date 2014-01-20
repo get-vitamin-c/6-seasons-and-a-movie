@@ -6,11 +6,12 @@ $('#nav').onePageNav({
 		end: function() {
 		console.log('stop');
 		},
-	scrollOffset: 99
+	scrollOffset: 99,
+	filter: ':not(.external)'
 });
 
 // TinyNav.js
-$('#nav').tinyNav({
+$('#nav .onePage').tinyNav({
 	header: 'Navigation' // Writing any title with this option triggers the header
 });
 	  
