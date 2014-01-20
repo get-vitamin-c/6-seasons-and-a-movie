@@ -6,7 +6,8 @@ $('#nav').onePageNav({
 		end: function() {
 		console.log('stop');
 		},
-	scrollOffset: 99
+	scrollOffset: 99,
+	filter: ':not(.external)'
 });
 
 // TinyNav.js
