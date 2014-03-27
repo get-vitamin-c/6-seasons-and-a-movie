@@ -8711,3 +8711,6 @@ a:focus {
 #orange{
   color: #f19c1d;
 }
+#hero img{
+  max-width:100%;
+}
