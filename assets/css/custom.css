@@ -8708,6 +8708,11 @@ a:focus {
 #feature2 .thumbnail{
   color: #5b5b5b;
 }
+
+#feature2 p{
+  color: #343434;
+}
+
 #orange{
   color: #f19c1d;
 }
