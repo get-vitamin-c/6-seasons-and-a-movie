@@ -8709,7 +8709,7 @@ a:focus {
   color: #5b5b5b;
 }
 
-#feature2 p{
+#feature2 p, #feature2 h3{
   color: #343434;
 }
 
