@@ -8708,3 +8708,7 @@ a:focus {
 #feature2 .thumbnail{
   color: #5b5b5b;
 }
+
+#hero img{
+  max-width:100%;
+}
