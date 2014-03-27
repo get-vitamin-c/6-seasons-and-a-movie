@@ -150,7 +150,7 @@
 	}
 
 	.btn-group .btn:last-child {
-		background: #9bbf4d;
+		background: #8bc043;
 		color: #fff;
 		border-radius: 0 5px 5px 0;
 		border-bottom: 3px solid #6b8534;
@@ -707,7 +707,7 @@
 	}
 	
 	#feature2 {
-		background: #9bbf4d url("../img/pat.png") center;
+		background: #8bc043 url("../img/pat.png") center;
 		padding: 90px 0;
 		box-shadow: inset 0 3px 0 rgba(0,0,0,0.1), inset 0 -3px 0 rgba(0,0,0,0.1);
 	}
