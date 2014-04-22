@@ -365,7 +365,7 @@
 	
 	/* Hero Content Text */
 	.hero_content h1 {
-		margin: 3.5em 0 .75em 0;
+		margin: 1.5em 0 1em 0;
 		font: 300 72px/72px "Lato";
 		text-align: center;
 		color: #ffffff;
@@ -921,7 +921,14 @@
 		text-transform: uppercase;
 	}
 
-	
+.hero_content h1 {
+	font-size: 60px;
+}
+
+.hero_content h1 b {
+	font-size: 61px;
+}
+
 /* ======================================================== */
 /* 4. MEDIA QUERIES
 /* ======================================================== */
@@ -1035,8 +1042,8 @@
 	 	}
 
 
-	 	 .hero_content h1 b { 
-	 	 	font: 400 60px/60px "Arvo"; 
+	 	 .hero_content h1 { 
+	 	 	font: 400 60px/60px "Lato"; 
 	 	 }
 
 
@@ -1097,5 +1104,9 @@
 	 /* Landscape phones and down */
 	 @media (max-width: 480px) {
 		#laptop { height: 231px; }
+		#hero h1 { 
+			text-align: center;
+	 	 	font: 400 36px/36px "Lato"; 
+	 	 }
 	 }
 	

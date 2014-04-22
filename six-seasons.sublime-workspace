@@ -135,7 +135,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 28119,
+				"buffer_size": 11249,
 				"line_ending": "Windows"
 			}
 		}
@@ -256,15 +256,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 28119,
+						"buffer_size": 11249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2264,
-								2264
+								416,
+								416
 							]
 						],
 						"settings":
@@ -313,6 +313,9 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -375,11 +378,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/C/Sites/6-seasons-and-a-movie/landing-page.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
