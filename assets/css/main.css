@@ -349,6 +349,10 @@
 	
 	/* ========= HERO =========  */
 
+	.promo_video {
+		margin: 0 0 15px 615px;
+	}
+
 	/* Hero Container */
 	#hero {
 		background: #364757 url("../img/pat.png");
@@ -365,7 +369,7 @@
 	
 	/* Hero Content Text */
 	.hero_content h1 {
-		margin: 1.5em 0 1em 0;
+		margin: 1em 0 .5em 0;
 		font: 300 72px/72px "Lato";
 		text-align: center;
 		color: #ffffff;
@@ -722,7 +726,7 @@
 
 	#hero2 {
 		background: #9bbf4d url("../img/hero-image3.jpg") center;
-		padding: 90px 0;
+		padding: 90px 0 0 0;
 		box-shadow: inset 0 3px 0 rgba(0,0,0,0.1), inset 0 -3px 0 rgba(0,0,0,0.1);
 	}
 	
