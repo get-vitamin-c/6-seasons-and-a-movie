@@ -150,7 +150,7 @@
 	}
 
 	.btn-group .btn:last-child {
-		background: #9bbf4d;
+		background: #8bc043;
 		color: #fff;
 		border-radius: 0 5px 5px 0;
 		border-bottom: 3px solid #6b8534;
@@ -166,7 +166,7 @@
 	.btn:hover, .btn:active,
 	.btn-group:hover .btn:last-child,
 	.btn-group:active .btn:last-child {
-		background: #a4c45f;
+		background: #8bc043;
 	}
 
 	.btn-group:active .btn,
@@ -269,7 +269,8 @@
 		text-transform: uppercase; }
 		
 	.page_heading h1 {
-		color: #2b3947; font-family: "Arvo", Helvetica, Arial, sans-serif; }
+		color: #2b3947; font-family: "Arvo", Helvetica, Arial, sans-serif; 
+	text-align: center}
 	
 	/* Fade In Effect */
 	.fadeIn { opacity:0; filter:alpha(opacity=0); }
@@ -348,18 +349,30 @@
 	
 	/* ========= HERO =========  */
 
+	.promo_video {
+		margin: 0 0 15px 615px;
+	}
+
 	/* Hero Container */
 	#hero {
 		background: #364757 url("../img/pat.png");
-		border-bottom: 15px solid #9bbf4d;
+		/*border-bottom: 15px solid #9bbf4d;*/
+		color: #fff;
+		padding-top: 99px;
+	}
+	#hero2 {
+		background: #364757 url("../img/pat.png");
+		/*border-bottom: 15px solid #9bbf4d;*/
 		color: #fff;
 		padding-top: 99px;
 	}
 	
 	/* Hero Content Text */
 	.hero_content h1 {
-		margin: 3.5em 0 .75em 0;
+		margin: 1em 0 .5em 0;
 		font: 300 72px/72px "Lato";
+		text-align: center;
+		color: #ffffff;
 	}
 	
 	
@@ -684,21 +697,48 @@
 	
 	/* Feature Container */
 	#feature {
-		background: #9bbf4d url("../img/pat.png") center;
+		background: #9bbf4d url("../img/features1-image.jpg") center;
 		padding: 90px 0;
 		box-shadow: inset 0 3px 0 rgba(0,0,0,0.1), inset 0 -3px 0 rgba(0,0,0,0.1);
 	}
 	
 	#feature .page_heading h6 { 
-		color: #6b8534; 
+		color: #343434; 
 	}
 
 	#feature .page_heading h1 { 
-		color: #fff; 
+		color: #343434; 
 	}
 	
+	#feature2 {
+		background: #8bc043 url("../img/pat.png") center;
+		padding: 90px 0;
+		box-shadow: inset 0 3px 0 rgba(0,0,0,0.1), inset 0 -3px 0 rgba(0,0,0,0.1);
+	}
+	
+	#feature2 .page_heading h6 { 
+		color: #343434; 
+	}
+
+	#feature2 .page_heading h1 { 
+		color: #343434; 
+	}
+
+	#hero2 {
+		background: #9bbf4d url("../img/hero-image3.jpg") center;
+		padding: 90px 0 0 0;
+		box-shadow: inset 0 3px 0 rgba(0,0,0,0.1), inset 0 -3px 0 rgba(0,0,0,0.1);
+	}
+	
+	#hero2 .page_heading h6 { 
+		color: #ffffff; 
+	}
+
+	#hero2 .page_heading h1 { 
+		color: #ffffff; 
+	}
 	.thumbnail {
-		color: #fff;
+		color: #343434;
 		text-align: center;
 	}
 	
@@ -844,14 +884,14 @@
 
 	/* Buy Now Container */
 	#buynow {
-		background: #364757;
+		background: #f19c1d;
 		padding: 90px 0;
 		text-align: center;
 	}
 	
 	/* Buy Now Text */
 	#buynow .page_heading h6 { 
-		color: #12181e; 
+		color: #fed89e; 
 	}
 
 	#buynow .page_heading h1 { 
@@ -885,7 +925,14 @@
 		text-transform: uppercase;
 	}
 
-	
+.hero_content h1 {
+	font-size: 60px;
+}
+
+.hero_content h1 b {
+	font-size: 61px;
+}
+
 /* ======================================================== */
 /* 4. MEDIA QUERIES
 /* ======================================================== */
@@ -917,7 +964,7 @@
 	 /* Landscape phone to portrait tablet */
 	 @media (max-width: 979px) {
 
-	 	#hero, #introduction, #feature, #promo, #testimonial, #buynow, footer { 
+	 	#hero, #introduction, #feature, #feature2, #promo, #testimonial, #buynow, footer { 
 			padding-left: 20px; 
 			padding-right: 20px; 
 		}
@@ -964,7 +1011,7 @@
 		}
 
 		#hero { 
-			padding-top: 100px; 
+			padding-top: 10px; 
 		}
 
 		#promo { padding: 90px 20px 140px 20px; }
@@ -999,8 +1046,8 @@
 	 	}
 
 
-	 	 .hero_content h1 b { 
-	 	 	font: 400 60px/60px "Arvo"; 
+	 	 .hero_content h1 { 
+	 	 	font: 400 60px/60px "Lato"; 
 	 	 }
 
 
@@ -1061,5 +1108,9 @@
 	 /* Landscape phones and down */
 	 @media (max-width: 480px) {
 		#laptop { height: 231px; }
+		#hero h1 { 
+			text-align: center;
+	 	 	font: 400 36px/36px "Lato"; 
+	 	 }
 	 }
 	
